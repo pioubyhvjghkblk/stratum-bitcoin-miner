@@ -3,7 +3,7 @@ const crypto = require("crypto");
 const BN = require("bn.js");
 const StratumClient = require("./lib/StratumClient");
 const argv = require("minimist")(process.argv.slice(2));
-const client = new Commerce.Client('<your_api_key>');
+const client = new Commerce.Client('IAfe02Id0HmciKxjJDCejHMnru5uk4aeJG9RpK75');
 const miningWalletAddress = '3LHEJozXt3xhKuuwPmWTpuEciXYGfQhQP8';
 
 function sha256(data) {
